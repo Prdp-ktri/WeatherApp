@@ -1,7 +1,3 @@
-
-
-
-
 export default function Search({ search, setSearch, handleSearch }) {
   return (
     <div className="search-engine">
@@ -12,9 +8,7 @@ export default function Search({ search, setSearch, handleSearch }) {
         value={search}
         onChange={(event) => setSearch(event.target.value)}
       />
-      <button onClick={handleSearch}>
-        Search Weather
-      </button>
+      <button onClick={handleSearch}>Search</button>
     </div>
   );
 }
